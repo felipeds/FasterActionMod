@@ -16,13 +16,9 @@ This is a fan-made, experimental mod for the game [The Long Dark](http://hinterl
 
 * The mod loader will create a directory 'mods' at the root of your game directory; it will also add a first mod: AddModdedToVersionString.dll. Leave it; it will make sure your game appears as loaded in the main menu.
 
-* Move the QuickWitted.dll file into this 'mods' directory.
+* Download latest release from GitHub
 
-* Move the QuickWittedConfig.xml file into your game root directory (that is, the directory that contains the "mods" folder).
-
-* Tweak the values in QuickWittedConfig.xml as you wish (they are a multiplier rate).
-
-* The next time you start the game, those values should be taken into account.
+* Move the FasterActionMod.dll file into this 'mods' directory.
 
 ### How to use
 Install the mod and be happy
