@@ -1,4 +1,4 @@
-﻿# Quick Witted
+﻿# Faster Action
 
 This is a fan-made, experimental mod for the game [The Long Dark](http://hinterlandgames.com/) that accelerates the wait time for actions.
 
