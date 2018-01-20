@@ -9,7 +9,7 @@ namespace FasterActionMod
         {
             if (active)
             {
-                Time.timeScale = 100f;
+                Time.timeScale = 30f;
             }
             else
             {
