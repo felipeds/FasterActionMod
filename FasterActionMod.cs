@@ -37,8 +37,10 @@ namespace FasterActionMod
     [HarmonyPatch(typeof(Panel_GenericProgressBar), "Launch")]
     public class FasterActionPanelLaunchMod
     {
-        public static void Prefix(ref float seconds)
+        public static void Prefix(string name, ref float seconds)
         {
+            if (name == Localization.Get("GAMEPLAY_FishingProgress"))
+                return;
             seconds = FasterConfig.ACTION_TIME;
         }
 
